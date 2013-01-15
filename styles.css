@@ -44,7 +44,9 @@ body {
 
 .form-outer select {
   width: 250px;
-  height: 175px; }
+  height: 175px;
+  color: #474747;
+  font-size: 1em; }
 
 .surveyqa-actions {
   width: 96%;
