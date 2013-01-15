@@ -40,53 +40,45 @@ body{
  .form-outer{
  	background-color: $darkColor;
  	padding: 20px;
+		ul{
+	 		text-align: center;
+	 		li{
+			 	display: inline-block;
+			 	margin: 10px 20px;
+			 	label{
+			 		display: block;
+					width: 250px;
+					color: $lightColor;
+					font-size: 1.5em;
+					text-align: center;
+					margin-bottom: 5px;
+			 	}
+			 	select{
+			 		width: 250px;
+					height: 175px;
+					color: $darkColor;
+					font-size: 1em;
+					font-family: $font;
+			 	}
+ 			}
+	 	}
+	.surveyqa-actions{
+		text-align: center;
+		input.button{
+			background-color: $lightColor;
+			background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+			padding: 15px 45px;
+			font-family: $font;
+			font-size: 1.5em;
+			border: none;
+			border-radius: 7px;
+			box-shadow: 0 1px 5px #2b2b2b;
+			margin: 10px auto 0;
+			color: $darkColor;
+			cursor: pointer;
+		}
+	}
  }
-
- .form-outer ul{
- 	width: 90%;
- 	margin: 0 auto;
- }
-
- .form-outer ul li{
- 	display: inline-block;
- 	margin: 10px 20px;
- }
-
-.form-outer label{
-	display: block;
-	width: 250px;
-	color: $lightColor;
-	font-size: 1.5em;
-	text-align: center;
-	margin-bottom: 5px;
-}
-
-.form-outer select{
-	width: 250px;
-	height: 175px;
-	color: $darkColor;
-	font-size: 1em;
-}
-
-
-.surveyqa-actions{
-	width: 98%;
-	text-align: center;
-}
-
-.surveyqa-actions input.button{
-	background-color: $lightColor;
-	background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
-	padding: 15px 45px;
-	font-family: $font;
-	font-size: 1.5em;
-	border: none;
-	border-radius: 7px;
-	box-shadow: 0 1px 5px #2b2b2b;
-	margin: 10px auto 0;
-	color: $darkColor;
-	cursor: pointer;
-}
 
 
 /* ---------------------
@@ -94,38 +86,35 @@ body{
 ----------------------*/
 
 .videos-outer{
-	padding: 20px;
-}
+	ul{
+		text-align: center;
+		li{
+			width: 30%;
+			background-color: $lightColor;
+			list-style: none;
+			display: inline-block;
+			margin: 20px 10px;
+			
+			img{
+				width: 100%;
+			}
 
-.videos-outer ul{
-	width: 90%;
-	margin: 0 auto;
-}
-
-.videos-outer ul li{
-	width: 350px;
-	background-color: $lightColor;
-	list-style: none;
-	display: inline-block;
-	margin: 20px;
-}
-
-.keyframe img{
-	width: 100%;
-}
-
-.keyframeTitle{
-	font-size: 1.25em;
-	font-weight: bold;
-	padding: 5px 10px;
-	color: $darkColor;
-}
-
-.keyframeTags{
-	padding: 5px 10px 10px;
-	color: $lessDark;
-	font-style: italic;
-	font-size: 0.75em;
+			.keyframeTitle{
+				font-size: 1.25em;
+				font-weight: bold;
+				padding: 5px 10px;
+				color: $darkColor;
+				text-align: left;
+			}
+			.keyframeTags{
+				padding: 5px 10px 10px;
+				color: $lessDark;
+				font-style: italic;
+				font-size: 0.75em;
+				text-align: left;
+			}
+		}	
+	}
 }
 
 
