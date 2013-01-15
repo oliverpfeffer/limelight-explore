@@ -42,7 +42,6 @@ $(function(d, w) {
 				timeout: 5000,
 				success: function(data) {
 					var qArr = data.ContentPanel.Questions[0].Question || null;
-					console.log(qArr);
 
 					for(var i=0; i<qArr.length; i++) {
 						var html = [];
@@ -60,7 +59,9 @@ $(function(d, w) {
 			});
 		},
 		init: function() {
+			// get questions and answers from qWS
 			this.getQA();
+
 			// make it accessible in global namespace
 			return this;
 		}
