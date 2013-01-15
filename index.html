@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>iPad2.0 Explore - Limelight Discovery Tool</title>
+
+		<link rel="stylesheet" href="styles.css"/>
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.8.3.min.js"></script>
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="form-outer">
+				<form name="surveyqa" id="surveyqa" method="get">
+					<ul>
+						<li>
+							<label>Categories</label>
+							<select name="sqa_categories[]" id="sqa_categories" multiple size="10">
+								<option value="" disabled selected>loading...</option>
+							</select>
+						</li>
+						<li>
+							<label>Hosts</label>
+							<select name="sqa_hosts[]" id="sqa_hosts" multiple size="10">
+								<option value="" disabled selected>loading...</option>
+							</select>
+						</li>
+						<li>
+							<label>Brands</label>
+							<select name="sqa_brands[]" id="sqa_brands" multiple size="10">
+								<option value="" disabled selected>loading...</option>
+							</select>
+						</li>
+						<li>
+							<label>Programs</label>
+							<select name="sqa_programs[]" id="sqa_programs" multiple size="10">
+								<option value="" disabled selected>loading...</option>
+							</select>
+						</li>
+					</ul>
+				</form>
+			</div>
+
+			<div class="videos-outer">
+				<ul id="videos"></ul>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
