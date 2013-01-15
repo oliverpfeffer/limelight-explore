@@ -55,7 +55,7 @@ body {
 .surveyqa-actions input.button {
   background-color: #f8f8f8;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
-  padding: 15px;
+  padding: 15px 45px;
   font-family: Helvetica, Arial, Sans-serif;
   font-size: 1.5em;
   border: none;
