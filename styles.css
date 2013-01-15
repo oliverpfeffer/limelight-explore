@@ -22,7 +22,6 @@ body {
 	FORM QUESTIONS
 ----------------------*/
 .form-outer {
-  width: 100%;
   background-color: #474747;
   padding: 20px; }
 
@@ -49,7 +48,7 @@ body {
   font-size: 1em; }
 
 .surveyqa-actions {
-  width: 96%;
+  width: 98%;
   text-align: center; }
 
 .surveyqa-actions input.button {
